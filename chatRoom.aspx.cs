@@ -42,7 +42,7 @@ namespace chattingProgram
 
 		protected void listening_talking()
 		{
-			SqlConnection conn = new SqlConnection("Data source=pdh.jlink.kr; Initial Catalog=PDH_DB; UID=pdh; PWD=aaaa1111;");
+			SqlConnection conn = new SqlConnection("");
 			conn.Open();
 
 			string query = "select * from talking";
